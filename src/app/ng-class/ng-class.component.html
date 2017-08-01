@@ -1,0 +1,11 @@
+<h2>[ngClass]</h2>
+
+<!-- Class Binding -->
+<p [class.cor-fundo]="true">Usando class binding, [class.cor-fundo]="true"</p>
+
+<p [class.cor-fundo]="valorClassBinding()">Usando class binding, [class.cor-fundo]="valorClassBinding"</p>
+<button (click)="mudarClassBinding()">Add CSS</button>
+
+<!-- ngClass -->
+<p [ngClass]="{'cor-fundo': valorClassBinding, 'cor-letra': valorClassBinding, 'estilo-letra': valorClassBinding, 'borda-paragrafo': valorClassBinding}">Usando ngClass declarando a classe CSS no template</p>
+<p [ngClass]="classes()">Usando ngClass com método na classe do Componente</p>

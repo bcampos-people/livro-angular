@@ -9,6 +9,12 @@ import { AlertaService } from './alerta.service';
 import { InterpolationBindingComponent } from './interpolation-binding/interpolation-binding.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component';
+import { NgForComponent } from './ng-for/ng-for.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     ListaPessoaComponent,
     InterpolationBindingComponent,
     PropertyBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    NgIfComponent,
+    NgSwitchCaseComponent,
+    NgForComponent,
+    NgClassComponent,
+    NgStyleComponent,
+    NgContentComponent
   ],
   imports: [
     BrowserModule,
